@@ -10,25 +10,23 @@ export default {
             "2xl": "1536px",
         },
         colors: {
-            light: "#EEEFF2",
-            accentLight: "#94A3B5",
-            brand: "#7C6098",
-            accent: "#42B195",
-            dark: "#292E3F",
-            black: "#202E3F",
+            light: "#E0DED3",
+            neutral: "#A9ACAF",
+            brand: "#61706B",
+            accent: "#B37239",
+            dark: "#241F24",
         },
         extend: {
             boxShadow: {
-                blueShadow: "0px 0px 20px 0px rgba(34, 10, 70, 0.6)",
-                blueMediumShadow: "10px 10px 200px 150px rgba(34, 10, 80, 0.8)",
-                pinkMediumShadow:
-                    "10px 10px 200px 150px rgba(350, 100, 160, 0.5)",
+                lightShadow: "2px 2px 10px 5px rgba(224, 222, 211, 0.6)",
+                darkShadow: "2px 2px 10px 5px rgba(36, 31, 36, 0.6)",
+                brandShadow: "2px 2px 10px 5px rgba(179, 114, 57, 0.6)",
+                bigShadow: "10px 10px 200px 150px rgba(179, 114, 57, 0.8)",
             },
         },
         fontFamily: {
-            body: ["Roboto Flex"],
-            special: ["Bellota"],
-            accent: ["Urbanist"],
+            body: "Roboto Flex",
+            special: "Lora",
         },
     },
 
