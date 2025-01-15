@@ -10,7 +10,7 @@ function App() {
     return (
         <>
             <Navbar />
-            <div className='flex-col justify-evenly gap-8'>
+            <div className='flex-col justify-evenly items-stretch gap-8'>
                 <Hero />
                 <About />
                 <Services />

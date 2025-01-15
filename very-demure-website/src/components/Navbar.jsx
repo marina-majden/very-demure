@@ -8,8 +8,8 @@ const Navbar = () => {
         { link: "Contact", section: "contact" },
     ];
     return (
-        <div className='w-screen h-fit px-1 py-2 sticky'>
-            <ul className='flex flex-col m-4'>
+        <div className='w-screen h-fit px-1 py-2 fixed z-50'>
+            <ul className='flex flex-col mx-6 mt-4 items-end'>
                 {links.map((link, index) => {
                     return (
                         <li key={index} className='group'>

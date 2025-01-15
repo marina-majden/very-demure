@@ -1,5 +1,11 @@
+import Heading from "./Heading";
+
 const Work = () => {
-    return <div>Work</div>;
+    return (
+        <div>
+            <Heading size='text-4xl' color='dark' text='Work' />
+        </div>
+    );
 };
 
 export default Work;
