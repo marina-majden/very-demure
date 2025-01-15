@@ -4,12 +4,12 @@ import Photo from "./Photo";
 
 const Hero = () => {
     return (
-        <div className='w-screen h-screen bg-clip-content'>
-            <div className='relative top-0 left-0 w-screen   h-screen'>
+        <div className='w-screen h-screen bg-clip-content static'>
+            <div className='relative top-0 left-0 w-screen max-w-[100%] h-auto max-h-[100%]'>
                 <div className='z-10'>
                     <Photo
                         src='/images/andy-beales-BjcGdM-mjL0-unsplash.jpg'
-                        style='max-w-[100%] opacity-80 sm:'
+                        style=' opacity-80'
                     />
                 </div>
                 <div className='absolute w-[150%] h-[120%] -top-[5%] left-[35%] bg-brand transform-cpu rotate-[30deg] z-0 opacity-90'></div>
@@ -17,11 +17,16 @@ const Hero = () => {
                     <Heading
                         size='text-7xl'
                         color='dark'
+                        weight='text-bold'
                         text='Very demure design.'
                     />
-                    <h2 className='m-6 px-6 py-4 font-special font-semibold text-3xl text-right text-pretty'>
-                        When you need to hide your wild side.
-                    </h2>
+                    <Heading
+                        size='text-4xl'
+                        color='dark'
+                        weight='text-bold'
+                        text='When you need to hide your wild side.'
+                    />
+
                     <div className='m-6 px-6 py-2 flex flex-col items-end p-12'>
                         <label
                             className='text-dark font-body text-lg uppercase'

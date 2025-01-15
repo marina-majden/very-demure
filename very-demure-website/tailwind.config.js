@@ -25,8 +25,9 @@ export default {
             },
         },
         fontFamily: {
-            body: "Roboto Flex",
-            special: "Lora",
+            body: "Pavanam",
+            special: "Bodoni Moda",
+            sans: "Roboto Flex",
         },
     },
 
