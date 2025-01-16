@@ -3,7 +3,12 @@ import Heading from "./Heading";
 const Contact = () => {
     return (
         <div id='contact'>
-            <Heading size='text-4xl' color='dark' text='Contact' />
+            <Heading
+                size='text-8xl'
+                color='dark'
+                weight='font-extrabold'
+                text='Contact'
+            />
         </div>
     );
 };

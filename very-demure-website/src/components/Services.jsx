@@ -1,11 +1,17 @@
-import Heading from "./Heading";
 import Card from "./Card";
 
 const Services = () => {
     return (
-        <div id='services'>
-            <Heading size='text-4xl' color='dark' text='Services' />
-            <div className='flex sm:flex-col lg:flex-row w-full'>
+        <div
+            id='services'
+            className='w-11/12 min-h-screen p-4 flex justify-around align-middle items-center relative'>
+            <div className='h-full absolute top-2 left-2'>
+                <h1 className='text-9xl text-dark font-extrabold text-vertical-lr rotate-180 font-special text-center px-2 py-24 m-auto sticky top-6'>
+                    Services
+                </h1>
+            </div>
+
+            <div className='w-2/3'>
                 <Card
                     subtitle='Service One'
                     image='/images/jose-martin-ramirez-carrasco-45sjAjSjArQ-unsplash.jpg'
